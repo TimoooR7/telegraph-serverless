@@ -1,5 +1,5 @@
 function sendCharacter(charAscii) {
-    fetch('http://192.168.1.140:8080/api/saveMessage.php', {
+    fetch('http://phpsrv-nebulatelegraph.azurewebsites.net/saveMessage.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
