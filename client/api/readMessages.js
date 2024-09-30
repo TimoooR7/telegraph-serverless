@@ -1,7 +1,7 @@
 
 async function readMessages() {
     try {
-        const response = await fetch('http://phpsrv-nebulatelegraph.azurewebsites.net/getMessages.php');
+        const response = await fetch('https://phpsrv-nebulatelegraph.azurewebsites.net/getMessages.php');
         if (!response.ok) {
             throw new Error('Erreur lors de la récupération des messages.');
         }
